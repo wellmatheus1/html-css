@@ -1,0 +1,123 @@
+@font-face{
+    font-family: android;
+    src: url("fontes/idroid.otf");
+}
+* {
+  box-sizing: border-box;
+}
+
+#header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, #39CD7B,#1A6038);
+    color: white;
+    text-align: center; /* resto do conteúdo */
+    padding: 10px 0;
+     
+}
+header > h1 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -1.4px;
+    
+}
+header > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.522);
+
+    
+}
+
+#header .navbar {
+    text-align: left; /* só a navbar */
+    padding-left: 20px; /* opcional, pra dar respiro */
+}
+
+#header .navbar a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px; /* opcional */
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #93be88;
+}
+#main {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    min-width: 300px;
+
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow:  0px 0px 2px rgba(0, 0, 0, 0.534);
+}
+main p {
+    margin: 15px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.9em;
+}
+#main .androidfont {
+    font-family: android;
+    color: #1A6038;
+}
+#main .wide {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.new-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.video {
+    background-color: #1A6038;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+.video > iframe {
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+#lista {
+    margin-top: 10px;
+    display: block;
+    padding: 1px 1px;
+    border-radius: 10px;
+    background-color: #C5EBD6;   
+}
+h3 {
+    padding: 10px 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+    background-color: #2FA866;
+    margin-top: 0;
+    
+}
+ul {
+    columns: 2;
+}
+footer {
+    text-align: center;
+    background-color: #1A6038;
+    padding: 5px 5px;
+    color: white;
+}
+
