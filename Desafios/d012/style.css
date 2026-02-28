@@ -4,6 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header {
     background-color: #000000;
     color: white;
@@ -14,6 +18,7 @@ header > h1 {
     font-family: "Arial Black", Arial, Helvetica, sans-serif;
     font-size: 10vh;
     padding-top: 50px;
+    font-variant: small-caps;
     
 }
 header > p {
@@ -21,10 +26,13 @@ header > p {
     font-size: 1em;
     padding-bottom: 50px;
 }
-header > p > a {
+  a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
 }
 section {
     font-family: 'Sriracha', cursive;
