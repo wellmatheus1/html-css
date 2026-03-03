@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+:root {
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Passion One', cursive, sans-serif;
+    --fonte3:'Sriracha', cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,6 +13,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 header {
     background-color: #000000;
@@ -15,14 +22,14 @@ header {
     
 }
 header > h1 {
-    font-family: "Arial Black", Arial, Helvetica, sans-serif;
-    font-size: 10vh;
+    font-family: var(--fonte2);
+    font-size: clamp(24px, 5vw, 80px);
     padding-top: 50px;
     font-variant: small-caps;
     
 }
 header > p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte1);
     font-size: 1em;
     padding-bottom: 50px;
 }
@@ -35,7 +42,7 @@ a:hover {
     text-decoration: underline;
 }
 section {
-    font-family: 'Sriracha', cursive;
+    font-family: var(--fonte3);
     font-size: 3.5vw;
     line-height: 2em;
     padding-top: 10vh;
