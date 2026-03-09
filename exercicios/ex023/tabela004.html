@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 600px;
+      }
+      th,
+      td {
+        border: 1px solid #000000;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+      <caption>
+        Filmes favoritos
+      </caption>
+      <tr>
+        <th scope="col">Grupo</th>
+        <th scope="col">Nomes</th>
+        <th scope="colgroup" colspan="3">Filmes</th>
+      </tr>
+      <tr>
+        <th scope="rowgroup" rowspan="3">Mulheres</th>
+        <td>Ana Maria</td>
+        <td>Alien</td>
+        <td>Rambo</td>
+        <td>Vingadores</td>
+      </tr>
+      <tr>
+        <td>Maria Clara</td>
+        <td>O Exorcista</td>
+        <td>O Iluminado</td>
+        <td>O Massacre da Serra Elétrica</td>
+      </tr>
+      <tr>
+        <td>Carla</td>
+        <td>O Poderoso Chefão</td>
+        <td>Scarface</td>
+        <td>Os Bons Companheiros</td>
+      </tr>
+      <tr>
+        <th scope="rowgroup" rowspan="3">Homens</th>
+        <td>Bruno Mendes</td>
+        <td>O Senhor dos Anéis</td>
+        <td>Harry Potter</td>
+        <td>Star Wars</td>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>Matrix</td>
+        <td>Gladiator</td>
+        <td>Interestelar</td>
+      </tr>
+      <tr>
+        <td>Alex</td>
+        <td>Transformers</td>
+        <td>Velocidade</td>
+        <td>De Volta para o Futuro</td>
+      </tr>
+    </table>
+  </body>
+</html>
